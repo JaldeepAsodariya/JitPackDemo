@@ -2,8 +2,7 @@
     package="com.mind.jitpacklibrary">
 
     <application
-        android:allowBackup="true"
-        android:label="@string/app_name_lib">
+            android:allowBackup="true">
         <activity android:name=".JitPackActivity" />
     </application>
 </manifest>
