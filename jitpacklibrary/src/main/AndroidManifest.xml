@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mind.jitpacklibrary">
 
-    <application
-            android:allowBackup="true">
-        <activity android:name=".JitPackActivity" />
+    <application android:allowBackup="true">
+        <activity
+            android:name=".JitPackActivity"
+            android:theme="@style/LibAppTheme" />
     </application>
 </manifest>
