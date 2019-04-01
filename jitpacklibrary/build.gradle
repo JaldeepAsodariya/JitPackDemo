@@ -66,4 +66,4 @@ task validateManifest() {
         throw new RuntimeException("Couldn\'t get Google API key from application meta data. Was it set in your AndroidManifest.xml?")
 }
 
-build.dependsOn validateManifest
+preBuild.dependsOn validateManifest
